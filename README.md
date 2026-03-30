@@ -1,15 +1,23 @@
-# Auto-Skip Liked Songs (Toggle) for Spicetify
+# Auto-Skip Liked Songs for Spicetify
 
-A Spicetify extension that adds a convenient toggle button to your bottom Playbar. When turned ON, it automatically skips any song currently playing that is already saved to your Liked Songs (indicated by the Green Checkmark/Plus icon).
+A powerful Spicetify extension that adds a native-looking toggle button next to your Volume/Mute controls. When turned ON, it automatically skips any song currently playing that is already saved to your Liked Songs (indicated by the Green Checkmark).
 
-This extension is built specifically to survive Spotify's recent UI updates that broke older auto-skip tools. It uses a UI watcher to guarantee functionality and includes a built-in 1.5-second safety delay to prevent Spotify's servers from rate-limiting or temporarily banning your account for skipping too rapidly.
+This extension is built specifically to survive Spotify's recent UI updates. It uses a brute-force UI watcher to guarantee functionality, even when internal APIs change.
 
 ## Features
-*   **Playbar Integration:** A clean, native-looking toggle button located right next to your volume and queue controls.
+*   **Playbar Integration:** A clean, native-looking toggle button Injected securely next to the Mute button on the right side.
 *   **Visual Feedback:** The icon turns Green when active and displays popup notifications so you always know its status.
-*   **Server Safe:** The 1.5-second skip delay mimics human behavior, keeping your Smart Shuffle and algorithmic playlists functioning normally.
+*   **Custom SVG Icon:** Features a clean, custom-designed "Curved Arrow over Dots" icon that fully supports Spotify's native hover and active color states.
+*   **Smart Memory:** Built with LocalStorage. It remembers if you left it ON or OFF, even after you restart Spotify.
+*   **Adjustable Speed (Right-Click):** 
+    *    **Safe Mode (Default):** Waits 1.5 seconds before skipping to protect your Spotify account from rate-limiting/server bans.
+    *    **Fast Mode:** Right-click the icon to lower the delay to 0.3s (just enough time for the UI to load) and skip instantly!
 
 ## Installation
+
+Search for **"Auto-Skip Liked Songs"** in the official Spicetify Marketplace and click install!"
+
+or the manual way:
 
 1. Download the `auto-skip-toggle.js` file from this repository.
 2. Place the file inside your Spicetify `Extensions` folder:
