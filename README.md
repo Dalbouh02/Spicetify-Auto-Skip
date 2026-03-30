@@ -21,7 +21,7 @@ This extension is built specifically to survive Spotify's recent UI updates. It 
 
 <p align="center">
   <b>Marketplace Banner</b><br><br>
-  <img src="preview.png" alt="Marketplace Preview Banner" width="800">
+  <img src="previewGH.png" alt="Marketplace Preview Banner" width="800">
 </p>
 
 <br>
