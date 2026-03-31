@@ -1,9 +1,10 @@
-# Auto-Skip Liked Songs for Spicetify
+<h1 align="center">Auto-Skip Liked Songs for Spicetify</h1>
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Version](https://img.shields.io/badge/Version-v2.0.0-neon.svg)
-![Status](https://img.shields.io/badge/Status-Working-success.svg)
-
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
+  <img src="https://img.shields.io/badge/Version-v2.0.1-gray.svg" alt="Version">
+  <img src="https://img.shields.io/badge/Status-Online-brightgreen.svg" alt="Status">
+</p>
 A powerful Spicetify extension that adds a native-looking toggle button next to your Volume/Mute controls. When turned ON, it automatically skips any song currently playing that is already saved to your Liked Songs (indicated by the Green Checkmark).
 
 This extension is built specifically to survive Spotify's recent UI updates. It uses a brute-force UI watcher to guarantee functionality, even when internal APIs change.
@@ -15,7 +16,7 @@ This extension is built specifically to survive Spotify's recent UI updates. It 
 *   **Smart Memory:** Built with LocalStorage. It remembers if you left it ON or OFF, even after you restart Spotify.
 *   **Adjustable Speed (Right-Click):** 
     *    **Safe Mode (Default):** Waits 1.5 seconds before skipping to protect your Spotify account from rate-limiting/server bans.
-    *    **Fast Mode:** Right-click the icon to lower the delay to 0.3s (just enough time for the UI to load) and skip instantly!
+    *    **Fast Mode:** Right-click the icon to lower the delay to 0.5s (just enough time for the UI to load) and skip instantly!
 
 ---
 
@@ -52,8 +53,9 @@ or the manual way:
 
 ## Usage
 
-1. Open Spotify and look at your bottom Playbar.
-2. Locate the new **Skip Icon** next to the Lyrics/Queue buttons.
-3. Click it once to turn Auto-Skip **ON** (The icon will turn Green).
-4. Whenever a song with a Green Checkmark plays, the extension will wait 1.5 seconds and automatically skip to the next track.
-5. Click the icon again to turn Auto-Skip **OFF**.
+1. Open Spotify and and look at the far right of your Playbar (next to the volume slider).
+2. Locate the new **Skip Icon** next to the Mute button.
+3. Left-Click to turn Auto-Skip ON (The icon will turn Green).
+4. Right-Click to toggle between Safe Mode (1.5s) and Fast Mode (0.5s).
+5. Whenever a song with a Green Checkmark plays, the extension will wait Safe Mode (1.5s) or Fast Mode (0.5s) and automatically skip to the next track.
+6. Left-Click the icon again to turn Auto-Skip **OFF**.
