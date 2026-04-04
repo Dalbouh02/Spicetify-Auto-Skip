@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
-  <img src="https://img.shields.io/badge/Version-v2.0.1-gray.svg" alt="Version">
+  <img src="https://img.shields.io/badge/Version-v2.0.1-Green.svg" alt="Version">
   <img src="https://img.shields.io/badge/Status-Working-brightgreen.svg" alt="Status">
 </p>
 A powerful Spicetify extension that adds a native-looking toggle button next to your Volume/Mute controls. When turned ON, it automatically skips any song currently playing that is already saved to your Liked Songs (indicated by the Green Checkmark).
